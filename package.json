@@ -14,24 +14,31 @@
     "lib"
   ],
   "scripts": {
-    "lint": "standard --fix",
-    "test": "jest --coverage",
-    "prepare": "npm run lint && npm run test"
   },
   "renovate": {
     "extends": [
       "zce"
     ]
   },
-  "standard": {
-    "env": [
-      "jest"
-    ]
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "browser-sync": "^2.27.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-sass": "^5.0.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0",
+    "sass": "^1.37.5"
   },
-  "dependencies": {},
   "devDependencies": {
-    "jest": "27.0.6",
-    "standard": "16.0.3"
   },
   "engines": {
     "node": ">=12"
