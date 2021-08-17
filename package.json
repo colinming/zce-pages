@@ -11,8 +11,10 @@
   "author": "colinming <919124965@qq.com> (https://github.com/colinming)",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
+  "bin": "bin/zce-pages.js",
   "scripts": {
   },
   "renovate": {
