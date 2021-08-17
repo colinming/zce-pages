@@ -1,5 +1,5 @@
 {
-  "name": "zce-pages",
+  "name": "colin-pages",
   "version": "0.1.0",
   "description": "static web app workflow",
   "keywords": [
@@ -15,8 +15,7 @@
     "bin"
   ],
   "bin": "bin/zce-pages.js",
-  "scripts": {
-  },
+  "scripts": {},
   "renovate": {
     "extends": [
       "zce"
@@ -40,8 +39,7 @@
     "gulp-useref": "^5.0.0",
     "sass": "^1.37.5"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=12"
   },
